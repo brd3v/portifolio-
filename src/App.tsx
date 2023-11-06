@@ -2,7 +2,7 @@ import React from 'react'
 import EstiloGlobal, { Container } from './styles'
 import Sidebar from './containers/Sidebar'
 import Sobre from './containers/Sobre'
-import Porjetos from './containers/Porjetos'
+import Projetos from './containers/Projetos'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Sidebar />
         <main>
           <Sobre />
-          <Porjetos />
+          <Projetos />
         </main>
       </Container>
     </div>
