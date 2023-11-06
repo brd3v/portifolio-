@@ -1,12 +1,20 @@
 import React from 'react'
-import EstiloGlobal from './styles'
-import Teste from './components/Teste'
+import EstiloGlobal, { Container } from './styles'
+import Sidebar from './containers/Sidebar'
+import Sobre from './containers/Sobre'
+import Porjetos from './containers/Porjetos'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <EstiloGlobal />
-      <Teste />
+      <Container>
+        <Sidebar />
+        <main>
+          <Sobre />
+          <Porjetos />
+        </main>
+      </Container>
     </div>
   )
 }
