@@ -8,6 +8,7 @@ const EstiloGlobal = createGlobalStyle`
         list-style: none;
 
         body{
+          padding-bottom: 80px;
             padding-top: 80px;
              @media(max-width: 768px){
           padding-bottom: 16px;
@@ -29,8 +30,5 @@ export const Container = styled.div`
   @media (max-width: 768px) {
     max-width: 80%;
     display: block;
-  }
-  img {
-    max-width: 100%;
   }
 `
