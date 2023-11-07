@@ -5,7 +5,7 @@ const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre min</Titulo>
     <Paragrafo tipo="secundario">
-      ou um Desenvolvedor Front-End especializado em React. Possuo uma sólida
+      Sou um Desenvolvedor Front-End especializado em React. Possuo uma sólida
       experiência com a biblioteca React, bem como amplo conhecimento em
       JavaScript, CSS, SCSS, TypeScript e uma dose de Node.js. Atualmente, estou
       focado em me dedicar integralmente à programação, aproveitando o meu tempo
